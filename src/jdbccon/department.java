@@ -58,59 +58,7 @@ public class department {
 
 
 
-	/*public static void main(String[] args) {
-        // Open a connection
-        try(Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
-            Statement stmt = conn.createStatement();
-        ) {
-//            Creating Table
-        /* String sql = "CREATE TABLE DEPARTMENT" +
-                    "(DEPTID smallint not NULL, " +
-
-                    " Deptname  VARCHAR(255), " +
-                    " PRIMARY KEY ( DEPTID ))";
-            stmt.executeUpdate(sql);
-            System.out.println("DEPARTMENT TABLE CREATED.....");
-
-
-            System.out.println("Inserting department records into the table...");
-             sql = "INSERT INTO DEPARTMENT VALUES (1, 'CS')";
-            stmt.executeUpdate(sql);
-             sql = "INSERT INTO DEPARTMENT VALUES (2, 'EEE')";
-             stmt.executeUpdate(sql);
-             sql = "INSERT INTO DEPARTMENT VALUES (3, 'IT')";
-             stmt.executeUpdate(sql);
-             sql = "INSERT INTO DEPARTMENT VALUES (4, 'ECE')";
-            stmt.executeUpdate(sql);
-            sql = "INSERT INTO DEPARTMENT VALUES (5, 'Arch')";
-            stmt.executeUpdate(sql);
-            sql = "INSERT INTO DEPARTMENT VALUES (6, 'Mech')";
-            stmt.executeUpdate(sql);
-
-            System.out.println("Inserted department records ...");
-
-
-
-        	Statement st = conn.createStatement();
-            ResultSet res = st.executeQuery("SELECT *FROM " + "students" + " NATURAL JOIN " + "department");
-            System.out.println("stuID" + " FirstName " + "LastName" + "DeptID" + "Deptname");
-            while (res.next()) {
-                String stuID = res.getString("stuID");
-                String FirstName = res.getString("FirstName");
-                String LastName = res.getString("LastName");
-
-                String DeptID = res.getString("DeptID");
-                String Deptname = res.getString("Deptname");
-                // Beautification of output
-                System.out.format(
-                        "%10s%10s%10s%10s%20s\n", stuID, FirstName, LastName,DeptID,Deptname);
-            }
-	} catch (SQLException e) {
-        e.printStackTrace();
-    }
-}
-}*/
-
+	
 
 
 
