@@ -36,9 +36,9 @@ import java.util.*;
 	           
 	            stmt.executeUpdate(sql);
 	            System.out.println("Table created");
-//	            String sto ="ALTER TABLE student "
-//            		+ "ADD FOREIGN KEY(DepID) REFERENCES DEPARTMENT(DepID)";
-//	            stmt.executeUpdate(sto);
+	            String sto ="ALTER TABLE student "
+            		+ "ADD FOREIGN KEY(DepID) REFERENCES DEPARTMENT(DepID)";
+	            stmt.executeUpdate(sto);
 
 
 
