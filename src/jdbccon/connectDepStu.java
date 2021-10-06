@@ -29,7 +29,7 @@ public class connectDepStu
 		        String MobileNo = res.getString("MobileNo");
 		        String EmailID = res.getString("EmailID");
 		        
-		        //String DepID = res.getString("DepID");
+		        
 		        String Department = res.getString("Department");
 		     
 		        System.out.format(
